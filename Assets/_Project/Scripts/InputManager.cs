@@ -11,13 +11,10 @@ namespace sks.IO {
             controlActions.Player.Right.performed += MoveRight;
         }
         void MoveLeft(InputAction.CallbackContext obj) {
-            Debug.Log("Move Left");
             Events.InvokePlayerMoveLeft();
         }
         void MoveRight(InputAction.CallbackContext obj) {
-            Debug.Log("Move Right");
             Events.InvokePlayerMoveRight();
-
         }
     }
 }
