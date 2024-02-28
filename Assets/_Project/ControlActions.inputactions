@@ -1,0 +1,54 @@
+{
+    "name": "ControlActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6377204b-9536-428c-9659-f45b14d86b0a",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "7b3da959-633a-453d-ae97-06d6cd4dd05f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "69d920c0-1089-43a9-89f6-9b1c798f3575",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e68df5a4-7585-459c-aead-f4ebb1aae0c7",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0c2924b-fbde-4dc2-ab23-1360f8ce0dfa",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
